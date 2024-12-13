@@ -22,30 +22,37 @@ using namespace std;
 		switch (luachon){
 			case 1:
 				tiendoira = tienquydoi*23500;
+				printf(" %.1f USD = %.1f VND ",tienquydoi, tiendoira);
 				break;
 			case 2:
 				tiendoira = tienquydoi*25000;
+				printf(" %.1f EUR = %.1f VND ",tienquydoi, tiendoira);
 				break;
 			case 3:
 				tiendoira = tienquydoi*28000;
+				printf(" %.1f GBP = %.1f VND ",tienquydoi, tiendoira);
 				break;
 			case 4:
 				tiendoira = tienquydoi*180;
+				printf(" %.1f JPY = %.1f VND ",tienquydoi, tiendoira);
 				break;
 			case 5:
 				tiendoira = tienquydoi/23500;
+				printf(" %.1f VND = %.1f USD ",tienquydoi, tiendoira);
 				break;
 			case 6:
 				tiendoira = tienquydoi/25000;
+				printf(" %.1f VND = %.1f EUR ",tienquydoi, tiendoira);
 				break;
 			case 7:
 				tiendoira = tienquydoi/28000;
+				printf(" %.1f VND = %.1f GBP ",tienquydoi, tiendoira);
 				break;
 			case 8:
 				tiendoira = tienquydoi/180;
+				printf(" %.1f VND = %.1f JPY ",tienquydoi, tiendoira);
 				break;			
 		}
-		printf("so tien doi ra la: %.2f",tiendoira);
 		
 		return 0; 
 		
